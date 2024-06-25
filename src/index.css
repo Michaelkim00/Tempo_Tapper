@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #61dafb;
+  margin-bottom: 20px;
+  margin-top: 150px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 32px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00bcd4;
+}
+
+#bpmDisplay {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.song-controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px; /* Add margin for spacing */
+}
+
+.song-controls button {
+  margin-right: 10px; /* Add margin between the buttons */
+}
+
+.reset-button {
+  padding: 8px 16px;
+}
